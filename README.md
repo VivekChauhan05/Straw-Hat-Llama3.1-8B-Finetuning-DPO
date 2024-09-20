@@ -1,0 +1,2 @@
+# Straw-Hat-Llama3.1-8B-Finetuning-DPO
+ This project focuses on fine-tuning the Llama 3.1 8B model for coding assistance using Parameter Efficient Fine-Tuning (PEFT) and LoRA techniques. Following fine-tuning, Direct Preference Optimization (DPO) is applied to align the model’s outputs with human preferences, enhancing its ability to generate accurate and user-friendly coding suggestions. The final model is optimized for efficient performance and made available on Hugging Face for easy integration.
