@@ -1,5 +1,5 @@
 
-# Straw Hat Coding Assistant 🎩
+# Straw Hat Coding Assistant 🤖
 
 ## Project Overview
 
@@ -7,7 +7,7 @@ The **Straw Hat Coding Assistant** is an AI-powered coding assistant built on th
 
 ## Model Description
 
-The Llama 3.1 8B model is a state-of-the-art transformer-based language model designed for a variety of natural language processing tasks. With 8 billion parameters, it excels in generating human-like text, understanding context, and providing accurate code suggestions. This project fine-tunes the model to optimize its performance in coding assistance, ensuring that it aligns closely with user preferences through Direct Preference Optimization (DPO).🤖
+The Llama 3.1 8B model is a state-of-the-art transformer-based language model designed for a variety of natural language processing tasks. With 8 billion parameters, it excels in generating human-like text, understanding context, and providing accurate code suggestions. This project fine-tunes the model to optimize its performance in coding assistance, ensuring that it aligns closely with user preferences through Direct Preference Optimization (DPO).
 
 ## Fine-Tuning Process 🔧
 
@@ -43,6 +43,7 @@ Direct Preference Optimization (DPO) is a technique used to align the model's ou
 
 - **Run the Fine-Tuning Script**:
   Execute the following command to fine-tune the model:
+
   ```bash
   python src/fine_tuning.py
   ```
@@ -51,6 +52,7 @@ Direct Preference Optimization (DPO) is a technique used to align the model's ou
 
 - **Execute the DPO Training Script**:
   After fine-tuning, run the DPO training script:
+
   ```bash
   python src/dpo_training.py
   ```
@@ -59,6 +61,7 @@ Direct Preference Optimization (DPO) is a technique used to align the model's ou
 
 - **Start the Streamlit App**:
   To interact with the model, launch the Streamlit application:
+
   ```bash
   streamlit run src/app.py
   ```
@@ -73,4 +76,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License 📜
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
